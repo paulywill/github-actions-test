@@ -11,7 +11,7 @@ jobs:
       - name: Step one
         uses: actions/checkout@v2
       - name: Step two
-        run: echo 'Current date: $now'
+        run: echo date
   job2:
     name: Second job
     runs-on: windows-latest
