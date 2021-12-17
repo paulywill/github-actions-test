@@ -13,7 +13,6 @@ jobs:
       - name: Step two
         run: env | sort
   job2:
-    needs: [job1]
     name: Second job
     runs-on: windows-latest
     steps:
